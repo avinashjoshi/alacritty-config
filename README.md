@@ -17,3 +17,6 @@ Visit <https://alacritty.org/index.html> to download
 ## References
 
 - Themes taken from <https://github.com/alacritty/alacritty-theme>
+- <https://schimana.net/2021/pimp-my-terminal-macos-terminal-iterm2-alacritty/>
+- <https://pezcoder.medium.com/how-i-migrated-from-iterm-to-alacritty-c50a04705f95>
+- <https://www.youtube.com/watch?v=uOnL4fEnldA>
