@@ -1,12 +1,9 @@
-import = [
-    "~/.config/alacritty/themes/nightfox.toml"
-]
 
 [env]
 TERM = "xterm-256color"
 COLORTERM = "truecolor"
 
-[shell]
+[terminal.shell]
 program = "/bin/zsh"
 args = ["--login", "-c", "zellij -l welcome"]
 
@@ -30,4 +27,11 @@ italic.family = "Cascadia Mono NF"
 bold_italic.family = "Cascadia Mono NF"
 
 size = 12.0
+
+[general]
+import = [
+    "~/.config/alacritty/themes/nightfox.toml"
+]
+
+[terminal]
 
