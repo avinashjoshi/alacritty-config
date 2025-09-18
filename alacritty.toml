@@ -5,19 +5,21 @@ COLORTERM = "truecolor"
 
 [terminal.shell]
 program = "/bin/zsh"
-args = ["--login", "-c", "zellij -l welcome"]
+args = ["--login"]
+# args = ["--login", "-c", "zellij -l welcome"]
 
 [window]
 padding.x = 10
 padding.y = 10
 option_as_alt = "OnlyLeft"
-decorations = "Buttonless"
-startup_mode = "Maximized"
+decorations = "Full"
+# decorations = "Buttonless"
+startup_mode = "Windowed"
 
 [keyboard]
 bindings = [
-{ key = "Right", mods = "Alt", chars = "\u001BF" },
-{ key = "Left",  mods = "Alt", chars = "\u001BB" },
+  { key = "Right", mods = "Alt", chars = "\u001BF" },
+  { key = "Left", mods = "Alt", chars = "\u001BB" },
 ]
 
 [font]
@@ -26,12 +28,9 @@ bold.family = "Cascadia Mono NF"
 italic.family = "Cascadia Mono NF"
 bold_italic.family = "Cascadia Mono NF"
 
-size = 12.0
+size = 14.0
 
 [general]
-import = [
-    "~/.config/alacritty/themes/nightfox.toml"
-]
+import = ["~/.config/alacritty/themes/nightfox.toml"]
 
 [terminal]
-
